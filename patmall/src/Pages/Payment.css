@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@600&family=Poppins&family=Quicksand&display=swap");
+
+
+#form {
+  line-height: 35px;
+  width: 40%;
+  /* background-color: #333; */
+}
+
+#card1 {
+  width: 375px;
+  height: 239px;
+
+  border-radius: 15px;
+  background-image: url("https://cardinfo.in/assets/images/sbi-platinum-debit-card.jpg");
+  background-size: cover;
+  /* background-attachment:calc(1.0); */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+#da {
+  line-height: 0px;
+  margin-left: 32%;
+  margin-top: 21%;
+  font-size: 21px;
+  color: #fff;
+  font-family: poppins;
+  line-height: 33px;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 90vh;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  padding-top: 4%;
+  padding: 3%;
+  /* background-color: #333; */
+  background: #22c1c3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdbb2d, #22c1c3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: auto;
+ 
+  
+}
+
+#form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border-color: #fff;
+  font-family: poppins;
+}
+
+label {
+  color: #fff;
+  display: block;
+  margin-bottom: 1%;
+  font-family: montserrat;
+  color: #fff;
+}
+
+#h {
+  text-align: center;
+  font-family: montserrat;
+  margin-top: 30px;
+}
+
+#sc {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  margin-top: 2%;
+  margin-left: 17%;
+  border-radius: 5px;
+  background-color: #F4511E;
+  color: white;
+  cursor: pointer;
+  font-family: poppins;
+  font-size: medium;
+  transition: transform .2s;
+}
+
+#sc:hover {
+  background-color: #DD2C00;
+  transform: scale(1.1);
+  font-family: poppins;
+  font-size: medium;
+}

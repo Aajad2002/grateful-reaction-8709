@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@600&family=Poppins&family=Quicksand&display=swap");
+
+    label {
+      display: block;
+      margin-bottom: 2%;
+      font-family: montserrat;
+      color: #fff;
+    }
+
+    #man input {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      border-color: #333;
+      font-family: poppins;
+    }
+
+    #input {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      border-color: #fff;
+      font-family: poppins;
+    }
+
+    #man #sc {
+      width: 50%;
+      padding: 10px;
+      border: none;
+      margin-left: 22%;
+      border-radius: 5px;
+      background-color: #F4511E;
+      color: white;
+      cursor: pointer;
+      font-family: poppins;
+      font-size: medium;
+      transition: transform .2s;
+    }
+
+    #sc:hover {
+      background-color: #DD2C00;
+      transform: scale(1.1);
+      font-family: poppins;
+      font-size: medium;
+    }
+#poncho{
+    margin-top: 2%;
+}
+    #man {
+      width: 35%;
+
+      margin: auto;
+      padding: 2% 3%;
+      padding-right: 1%;
+      /* margin-top: 10%; */
+      margin-bottom: 3%;
+      background-color: #333;
+      border-radius: 20px;
+    }
+
+    #h {
+      text-align: center;
+      color: black;
+      font-size: 40px;
+      margin-bottom: 2%;
+      font-family: montserrat;
+    }
+
+    footer {
+      margin-bottom: - 2%;
+    }
+
+
+    strong {
+      position: relative;
+    }
+
+    strong::before {
+      /* Highlight color */
+      background-color: white;
+
+      content: "";
+      position: absolute;
+      width: calc(100% + 4px);
+      height: 60%;
+      left: -2px;
+      bottom: 0;
+      z-index: -1;
+      transform: rotate(-2deg);
+    }
